@@ -1,2 +1,2 @@
-# SMAP
-Smart projekt
+# SMAP - meteostanice
+Cílem projektu je rozšířit stávající arduino platformu ( ESP8266 wifi přijímač + DHT22 sensor) o snahu předpovědi, s jakou pravděpodobností může nastat v následujícím časovém horizontu bouřka či déšť. Arduino je připojeno na IBM platformu, kam přichází data ve tvaru Json. Z DHT22 sensoru lze získat aktuální teplotu a procentuální vlhkost. Dahta jsou ukládána do IBM cloudu. Dále je vytvořena zaheslovaná webová stránka, kde lze zobrazit aktuálně získaná data. Pro predikci bouřky a deště se budu snažit vymyslet co nejvhodnější výpočetní vzorec. Jako podklady budou sloužit odobrné články a pokud by to bylo možné, tak bych rozšířil o tuto funkci i projekt. Musím také přihlédnout ke skutečnosti, že sensor sbírá pouze lokální data a nemá tušení o pohybu teplách, studených front, atd... Z dat, které sensor nasbírá se budu snažit vytvořit predikci, pokud to nebude možné, tak se budu slažit alespoň o částečnou predikci.
